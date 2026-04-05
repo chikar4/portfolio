@@ -29,6 +29,7 @@ body {
   color: var(--text);
   line-height: 1.6;
   overflow-x: hidden;
+  user-select: none;
 }
 
 /* ==========================================
@@ -68,6 +69,10 @@ nav {
   background: linear-gradient(135deg, #7eb3fb, #2e7cf6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+a {
+  text-decoration: none;
 }
 
 .nav-links {
