@@ -89,8 +89,8 @@
         <div class="skill-tags">
           <span class="tag">React</span>
           <span class="tag">Next.js</span>
-          <span class="tag">Html</span>
-          <span class="tag">Css</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">Tailwind</span>
         </div>
       </div>
       <div class="skill-card fade-up">
@@ -101,7 +101,7 @@
           <span class="tag">Node.js</span>
           <span class="tag">Python</span>
           <span class="tag">FastAPI</span>
-          <span class="tag">MySQL</span>
+          <span class="tag">PostgreSQL</span>
         </div>
       </div>
       <div class="skill-card fade-up">
@@ -110,6 +110,7 @@
         <p class="skill-desc">Déploiement continu, conteneurisation et infrastructure cloud.</p>
         <div class="skill-tags">
           <span class="tag">Docker</span>
+          <span class="tag">AWS</span>
           <span class="tag">CI/CD</span>
           <span class="tag">Linux</span>
         </div>
@@ -121,6 +122,7 @@
         <div class="skill-tags">
           <span class="tag">Git</span>
           <span class="tag">Agile</span>
+          <span class="tag">TDD</span>
           <span class="tag">GraphQL</span>
         </div>
       </div>
@@ -135,40 +137,59 @@
     </div>
     <div class="projects-grid">
       <div class="project-card fade-up">
-        <img src="/pictures/Ascii-art-web.png" alt="projet">
-        <div class="project-title">Ascii-art-web</div>
-        <!-- <p class="project-desc">Dashboard temps réel pour l'analyse de données métier. Architecture micro-services, visualisations D3.js, authentification JWT et API REST complète.</p> -->
+        <span class="project-num">001</span>
+        <div class="project-title">Plateforme SaaS Analytics</div>
+        <p class="project-desc">Dashboard temps réel pour l'analyse de données métier. Architecture micro-services, visualisations D3.js, authentification JWT et API REST complète.</p>
         <div class="skill-tags project-tags">
-          <span class="tag">Go</span>
-          <span class="tag">Html</span>
-          <span class="tag">Css</span>
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">PostgreSQL</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link" href="#">GitHub →</a>
+          <a class="project-link" href="#">Live demo →</a>
         </div>
       </div>
       <div class="project-card fade-up">
-        <img src="/pictures/groupie-tracker.png" alt="projet">
-        <div class="project-title">Groupie-tracker</div>
-        <!-- <p class="project-desc">Passerelle API centralisant l'authentification, le rate limiting et le routage pour une architecture distribuée de 5 services indépendants.</p> -->
-        <div class="skill-tags project-tags">
-          <span class="tag">Go</span>
-          <span class="tag">Html</span>
-          <span class="tag">Css</span>
-        </div>
-      </div>
-      <div class="project-card fade-up">
-        <img src="/pictures/make-your-game.png" alt="projet">
-        <div class="project-title">Make-your-game</div>
-        <!-- <p class="project-desc">Application mobile cross-platform avec paiement Stripe, gestion d'inventaire en temps réel et notifications push. 2000+ utilisateurs actifs.</p> -->
-        <div class="skill-tags project-tags">
-          <span class="tag">JS</span>
-          <span class="tag">Html</span>
-          <span class="tag">Css</span>
-        </div>
-      </div>
-      <div class="project-card fade-up">
-        <div class="project-title">Prochainement...</div>
-        <!-- <p class="project-desc">Outil en ligne de commande pour automatiser les tâches de déploiement répétitives. 150+ stars sur GitHub, utilisé dans 3 équipes.</p> -->
+        <span class="project-num">002</span>
+        <div class="project-title">API Gateway Microservices</div>
+        <p class="project-desc">Passerelle API centralisant l'authentification, le rate limiting et le routage pour une architecture distribuée de 5 services indépendants.</p>
         <div class="skill-tags project-tags">
           <span class="tag">Python</span>
+          <span class="tag">FastAPI</span>
+          <span class="tag">Docker</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link" href="#">GitHub →</a>
+          <a class="project-link" href="#">Documentation →</a>
+        </div>
+      </div>
+      <div class="project-card fade-up">
+        <span class="project-num">003</span>
+        <div class="project-title">App Mobile E-Commerce</div>
+        <p class="project-desc">Application mobile cross-platform avec paiement Stripe, gestion d'inventaire en temps réel et notifications push. 2000+ utilisateurs actifs.</p>
+        <div class="skill-tags project-tags">
+          <span class="tag">React Native</span>
+          <span class="tag">Firebase</span>
+          <span class="tag">Stripe</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link" href="#">GitHub →</a>
+          <a class="project-link" href="#">App Store →</a>
+        </div>
+      </div>
+      <div class="project-card fade-up">
+        <span class="project-num">004</span>
+        <div class="project-title">CLI Dev Toolkit</div>
+        <p class="project-desc">Outil en ligne de commande pour automatiser les tâches de déploiement répétitives. 150+ stars sur GitHub, utilisé dans 3 équipes.</p>
+        <div class="skill-tags project-tags">
+          <span class="tag">Go</span>
+          <span class="tag">Shell</span>
+          <span class="tag">AWS CLI</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link" href="#">GitHub →</a>
+          <a class="project-link" href="#">npm →</a>
         </div>
       </div>
     </div>
@@ -181,11 +202,12 @@
         <div class="section-tag center">04 — contact</div>
         <h2>Travaillons ensemble</h2>
       </div>
-      <p class="fade-up">En recherche d'alternance. N'hésite pas à me contacter.</p>
-      <a class="contact-email fade-up" href="mailto:lotfiahmad36502@gmail.com">lotfiahmad36502@gmail.com</a>
+      <p class="fade-up">Disponible pour des missions freelance, des postes full-time ou des collaborations open source. N'hésite pas à me contacter.</p>
+      <a class="contact-email fade-up" href="mailto:hello@yourname.dev">hello@yourname.dev</a>
       <div class="social-links fade-up">
-        <a class="social-link" href="https://github.com/chikar4" target="_blank">GitHub</a>
+        <a class="social-link" href="#">GitHub</a>
         <a class="social-link" href="#">LinkedIn</a>
+        <a class="social-link" href="#">Twitter</a>
       </div>
     </div>
   </section>
@@ -196,5 +218,43 @@
   </footer>
 
   <script src="script.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 </body>
 </html>
